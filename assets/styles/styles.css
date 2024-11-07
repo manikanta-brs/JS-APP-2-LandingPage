@@ -1,0 +1,106 @@
+body {
+  /* background-image: url(../images/BG.png); */
+  background-size: cover;
+  height: 90vh;
+}
+
+div .courseTitle img {
+  width: 56px;
+  height: 66px;
+  /* background-color: blue; */
+}
+.header .navbar-brand {
+  background-color: var(--primary-color);
+  padding: 50px;
+}
+
+div .courseTitle {
+  /* padding: 50px; */
+  background-color: blue;
+}
+.ReactTitle {
+  background-color: #838383;
+  height: 50px;
+  font: normal normal 600 19px / 27px Oswald;
+  letter-spacing: 0.38px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.ReactTitle img {
+  height: 30px;
+}
+/* main section------------------------------------------------------------- */
+#landingpageBg {
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/landing-bg-1.jpg");
+  background-blend-mode: overlay;
+}
+.landingpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 169px);
+  flex-wrap: nowrap;
+  color: white;
+}
+#time {
+  font-size: 3.5rem;
+  font-family: fantasy;
+  letter-spacing: 5px;
+}
+.greet {
+  display: flex;
+}
+#greet {
+  padding-right: 5px;
+  font-size: 2.5rem;
+}
+#name {
+  font-size: 2.5rem;
+  height: 64px;
+  overflow: hidden;
+}
+.affirm {
+  font-size: 1rem;
+}
+#quote {
+  font-size: 1.2rem;
+}
+/* Footer---------------------------------------------------------------------- */
+.footer {
+  position: absolute;
+  /* margin-bottom: 0px; */
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+footer {
+  letter-spacing: 0.24px;
+  background-color: var(--primary-color);
+  color: white;
+}
+footer button {
+  /* border: none; */
+  padding: 10px 10px;
+  border-radius: 20%;
+}
+footer button {
+  border-color: white;
+  box-shadow: 2px 2px 0px 0px;
+}
+#build {
+  background-color: #1a4b84;
+}
+#raise {
+  background-color: #991e14;
+}
+#shine {
+  background-color: #fead06;
+}

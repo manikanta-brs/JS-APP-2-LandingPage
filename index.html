@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock Project</title>
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="d-flex bg-gradient">
+        <div class="d-flex flex-grow-1">
+          <nav class="courseTitle">
+            <button class="navbar-brand border-0">
+              <img src="images/logo.png" alt="logo" />
+            </button>
+          </nav>
+          <div class="flex-grow-1 bg-secondary-subtle">
+            <div class="ReactTitle ps-3 d-flex align-items-center">
+              <img src="images/jslogo.png" alt="JavaScript logo" />
+              <h2 class="mb-0 ps-3">Java Basic Apps</h2>
+            </div>
+            <div class="d-flex-ps-3 align-items-center">
+              <div class="flex-grow-1 ps-3">
+                <h4 class="text-uppercase">JS Clock</h4>
+                <p class="pb-0 mb-3 text-start">
+                  Purpose to show the current time
+                </p>
+                <p>
+                  <a
+                    class="pb-0 mb-3 text-start"
+                    href="https://github.com/manikanta-brs/JS-APP-2-LandingPage/"
+                    target="_blank"
+                    >Git Repository</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main id="landingpageBg">
+      <section class="landingpage">
+        <time id="time"></time>
+        <div class="greet">
+          <h2 class="pb-3" id="greet">Hello,&nbsp</h2>
+          <h2 class="pb-3" id="name" contenteditable="true"></h2>
+        </div>
+        <h3 class="pb-3" id="place"></h3>
+        <h3 class="affirm">Affirm of the day</h3>
+        <h3 class="pb-3" id="quote"></h3>
+      </section>
+    </main>
+
+    <footer class="footer footer-dark">
+      <div class="footer-div d-flex justify-content-between px-5">
+        <div>ALL RIGHTS RESERVED BRS STUDIO 2024</div>
+        <div class="footer-div">
+          <button
+            id="build"
+            onclick="setTheme('#1A4B84')"
+            class="theme-switch theme-switch-chathams_blue"
+          ></button>
+          <button
+            id="raise"
+            onclick="setTheme('#991E14')"
+            class="theme-switch theme-switch-tamarillo"
+          ></button>
+          <button
+            id="shine"
+            onclick="setTheme('#FEAD06')"
+            class="theme-switch theme-switch-yellow_sea"
+          ></button>
+        </div>
+        <div class="footer-div">
+          <img src="images/footer-logo.png" alt="Footer Logo" />
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Your JS file -->
+    <script src="assets/scripts/scripts.js"></script>
+  </body>
+</html>
